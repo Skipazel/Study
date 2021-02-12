@@ -1,0 +1,10 @@
+summ = int(input("Необходимый объем органической смеси: "))
+tbp = (((summ*0.10)/66.4)*100 )
+d2egpa = (((summ*0.15)/99.4)*100)
+sd60 = summ-(tbp+d2egpa)
+
+print("Объем Shellsoll D60: " + str(sd60))
+print("Объем ТБФ: " + str(tbp))
+print("Объем Ди2ЭГФК: " + str(d2egpa))
+
+input()
