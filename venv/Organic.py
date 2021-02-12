@@ -6,5 +6,5 @@ sd60 = summ-(tbp+d2egpa)
 print("Объем Shellsoll D60: " + str(sd60))
 print("Объем ТБФ: " + str(tbp))
 print("Объем Ди2ЭГФК: " + str(d2egpa))
-
+print("korosho")
 input()
